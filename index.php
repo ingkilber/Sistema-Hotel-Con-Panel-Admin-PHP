@@ -792,7 +792,7 @@ include('db.php');
 	</section>
 	<!-- /contact -->
 	<div class="copy">
-		<p>© 2022 <a href="index.php">AMENECER</a> </p>
+		<p>© 2024 <a href="index.php">KILBER MARCANO</a> </p>
 	</div>
 	<!--/footer -->
 	<!-- js -->
