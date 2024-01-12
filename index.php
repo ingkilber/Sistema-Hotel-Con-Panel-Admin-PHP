@@ -918,9 +918,22 @@ include('db.php');
 	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 
 	<!-- Botón flotante de WhatsApp -->
-	<a href="https://wa.me/+5491176011408" target="_blank" class="whatsapp-btn btn btn-primary">
-        <i class="glyphicon glyphicon-phone"></i>
-    </a>
+        <a href="https://wa.me/+5491176011408?text=Quiero%20más%20información%20para%20reservar" target="_blank" class="whatsapp-btn btn btn-primary">
+            <i class="glyphicon glyphicon-phone"></i>
+        </a>
+
+	<script>
+        function copyToClipboard(text) {
+            var textArea = document.createElement("textarea");
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Mensaje copiado al portapapeles. Pégalo en la ventana de chat de WhatsApp.');
+        }
+    </script>
+	<!-- Fin Botón flotante de WhatsApp -->
 
 </body>
 
